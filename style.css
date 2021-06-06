@@ -7,6 +7,10 @@
     background-color: white;
     overflow: hidden;
   }
+
+.navbar div a {
+    background-color: teal;
+}
 .navbar li {
     background:#f1f1f1;
     margin-right:10px;
