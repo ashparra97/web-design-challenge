@@ -1,4 +1,14 @@
 /* CSS file for style */
 
+/* Navbar formatting*/
 
 
+.navbar {
+    background-color: white;
+    overflow: hidden;
+  }
+.navbar li {
+    background:#f1f1f1;
+    margin-right:10px;
+    display: inline;
+}
