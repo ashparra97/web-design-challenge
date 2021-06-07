@@ -1,14 +1,93 @@
+<!-- Cloudiness -->
+
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-
-
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Cloudiness: AP</title>
+    
+        <!-- CSS stylesheet link from Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
 
 
 <body>
+
+
+     <!--  Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Plots
+                    </a>
+                </li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="vis1_maxtemp.html">Max Temperature</a></li>
+                  <li><a class="dropdown-item" href="vis2_cloudiness.html">Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="vis3_windspeed.html">Windspeed</a></li>
+                  <li><a class="dropdown-item" href="vis4_humidity.html">Humidity</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="comparisons.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Data.html">Data</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+    </nav> 
+
+    
+    <div class="container content">
+        <h3>Comparison: Latitude vs X</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>vs. Max Temperature</h3>
+                <p>City Latitude vs. Max Temperature</p>
+                <br>
+                <div class="thumbnail">
+                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
+            </div>
+            <div class="col-md-6">
+                <h3>vs. Cloudiness</h3>
+                <p>City Latitude vs. Cloudiness</p>
+                <br>
+                <div class="thumbnail">
+                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
+            </div>     
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>vs. Humidity</h3>
+                <p>City Latitude vs. Humidity</p>
+                <br>
+                <div class="thumbnail">
+                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
+            </div>
+            <div class="col-md-6">
+                <h3>vs. Wind Speed</h3>
+                <p>City Latitude vs. Wind Speed</p>
+                <br>
+                <div class="thumbnail">
+                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
+            </div>     
+        </div>
+      
+    
+    </div>   
 
 
 
