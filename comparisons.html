@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <title>Cloudiness: AP</title>
+        <title>Comparisons: AP</title>
     
         <!-- CSS stylesheet link from Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,7 +14,6 @@
 
 
 <body>
-
 
      <!--  Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,39 +50,32 @@
     
     <div class="container content">
         <h3>Comparison: Latitude vs X</h3>
+        <p>Click on any plot to get a deeper analysis</p>
         <br>
         <div class="row">
             <div class="col-md-6">
-                <h3>vs. Max Temperature</h3>
-                <p>City Latitude vs. Max Temperature</p>
+                <h3 class="text-center">vs. Max Temperature</h3>
                 <br>
-                <div class="thumbnail">
-                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
+                <a href="vis1_maxtemp.html"><img width="100%" src="Resources/Assets/max temp.png"></a>   
             </div>
             <div class="col-md-6">
-                <h3>vs. Cloudiness</h3>
-                <p>City Latitude vs. Cloudiness</p>
+                <h3 class="text-center">vs. Cloudiness</h3>
                 <br>
-                <div class="thumbnail">
-                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
+                <a href="vis2_cloudiness.html"><img width="100%" src="Resources/Assets/cloudiness.png"></a>
             </div>     
         </div>
         <br>
         <div class="row">
             <div class="col-md-6">
-                <h3>vs. Humidity</h3>
-                <p>City Latitude vs. Humidity</p>
+                <h3 class="text-center">vs. Wind Speed</h3>
                 <br>
-                <div class="thumbnail">
-                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
-            </div>
+                <a href="vis3_windspeed.html"><img width="100%" src="Resources/Assets/wind speed.png"></a>
+            </div> 
             <div class="col-md-6">
-                <h3>vs. Wind Speed</h3>
-                <p>City Latitude vs. Wind Speed</p>
+                <h3 class="text-center">vs. Humidity</h3>
                 <br>
-                <div class="thumbnail">
-                <img class="img-thumbnail" src="Resources/Assets/cloudiness.png" width="100%">
-            </div>     
+                <a href="vis4_humidity.html"><img width="100%" src="Resources/Assets/humidity.png"></a>
+            </div>    
         </div>
       
     
